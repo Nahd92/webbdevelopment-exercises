@@ -1,0 +1,16 @@
+ol {
+    list-style: circle;
+}
+
+.ordered__list {
+    display: none;
+}
+
+.edit:hover {
+    text-decoration: underline;
+}
+
+
+.edit:hover+.ordered__list {
+    display: block;
+}
