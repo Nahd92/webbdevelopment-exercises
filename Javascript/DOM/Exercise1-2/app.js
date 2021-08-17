@@ -1,6 +1,5 @@
 
 const divElem = document.getElementById('element').innerHTML = "Div is changed"
-
 console.log(divElem);
 
 function addElement() {
@@ -8,7 +7,7 @@ function addElement() {
     const li = document.createElement("li");
     const inputValue = document.getElementById("inputValue").value;
     console.log(inputValue)
-    if(inputValue === " "){
+    if(inputValue === ""){
         alert("INPUT CANNOT BE EMPTY");
     }else {
         li.appendChild(document.createTextNode(inputValue));
@@ -19,10 +18,8 @@ function addElement() {
 
 
 function swapElem() {
-    let buttonStyle = document.getElementById("button");
-    console.log(buttonStyle);
-
-  let toggled = buttonStyle.classList.toggle("swap-elem-style");
+ const buttonStyle = document.getElementById("button");
+  const toggled = buttonStyle.classList.toggle("swap-elem-style");
 
     if(toggled) {
         buttonStyle.classList.remove("button__attr");
@@ -49,8 +46,7 @@ function toggleDiv() {
 
 
 function swapAllSections() {
-    //const button = document.getElementById('allSectionsButton');
-    let allSections = document.getElementsByTagName("section");
+    const allSections = document.getElementsByTagName("section");
 
     for (let i = 0; i < allSections.length; i++) {
         const element = allSections[i];
