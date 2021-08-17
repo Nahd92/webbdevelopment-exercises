@@ -1,0 +1,14 @@
+.rectangle {
+    background-color: black;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle__explaination {
+    color: white;
+    text-align: center;
+}
