@@ -1,0 +1,26 @@
+.swap-elem-style {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    color: black;
+}
+
+.button__attr {
+    margin-top: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+
+}
+
+.new-color-for-sections {
+    background-color: cyan;
+}
+
+
+section {
+    width: 200px;
+    background-color: red;
+
+}
