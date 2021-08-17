@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header {
+    max-width: 1024px;
+}
+
+.header__wrapper {
+    display: flex;
+    background-color: black;
+}
+
+.random__img {
+    padding: 25px;
+}
+
+.header__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin: 0 30px;
+    padding: 25px;
+    color: white;
+}
