@@ -1,3 +1,8 @@
+.rectangle__container {
+    height: 300vh;
+    position: relative;
+}
+
 .rectangle {
     background-color: black;
     width: 70%;
@@ -8,7 +13,19 @@
     align-items: center;
 }
 
-.rectangle__explaination {
-    color: white;
+.green_rectangle {
+    position: relative;
+    width: 200px;
+    top: -120px;
+    left: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.white__rectangle {
+    position: fixed;
+    height: 150px;
+    width: 150px;
+    background: white;
     text-align: center;
 }
