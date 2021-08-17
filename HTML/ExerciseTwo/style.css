@@ -1,0 +1,35 @@
+/* IMPORTS CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+/* GLOBAL CSS */
+body {
+    padding: 0;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/* MAIN PART */
+.exersice__title {
+    font-size: 2.5rem;
+}
+
+
+.second-word {
+    font-weight: bold;
+}
+
+.third-word {
+    text-decoration-line: underline;
+}
