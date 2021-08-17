@@ -11,6 +11,6 @@ ol {
 }
 
 
-.edit:hover+.ordered__list {
+.edit:hover .ordered__list {
     display: block;
 }
